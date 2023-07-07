@@ -11,8 +11,8 @@ const JoinLearnHub = () => {
         just a click.
       </div>
       <div className="flex justify-center">
-        <button className="text-black flex items-center text-2xl font-bold px-4 py-6 border rounded-2xl gap-5">
-          <FcGoogle className="mr-2" /> Google
+        <button className="text-black flex items-center text-2xl font-bold px-8 py-4 border rounded-2xl gap-5 justify-center">
+          <FcGoogle className="" /> Google
         </button>
       </div>
 
@@ -27,7 +27,7 @@ const JoinLearnHub = () => {
           Start Learning
         </button>
       </div>
-      <div>
+      <div className="text-center">
         By signing up you agree to LearnShare&apos;s Terms of Service and
         Privacy Policy,
       </div>

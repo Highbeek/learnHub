@@ -3,13 +3,16 @@ import React from "react";
 import Home from "./pages/Home";
 // import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing";
+import { SubjectProvider } from "./Hooks/SubjectContext";
 
 const App = () => {
   return (
-    <div>
-      <Home />
-      {/* <Landing /> */}
-    </div>
+    <>
+      <SubjectProvider>
+        {/* <Home /> */}
+        <Landing />
+      </SubjectProvider>
+    </>
   );
 };
 
