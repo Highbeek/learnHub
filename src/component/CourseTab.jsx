@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { SubjectContext } from "../Hooks/SubjectContext";
+import VideoList from "./Videos";
 
 const CourseTab = ({ content }) => {
   const { selectedSubject } = useContext(SubjectContext);
@@ -26,7 +28,7 @@ const CourseTab = ({ content }) => {
           backgroundImage: backgroundImage,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          transition: "background-image 0.5s ease-in-out", // Add transition property
+          transition: "background-image 0.5s ease-in-out",
         }}
       >
         <p className="text-white text-bold text-8xl">Online Classes</p>
@@ -36,12 +38,14 @@ const CourseTab = ({ content }) => {
         <button className="btn py-2 px-4 rounded-lg text-xl text-bold mt-10">
           Start for Free
         </button>
-        {selectedSubject && <p>{selectedSubject.title}</p>}
       </div>
-      <div>
-        <p>Featured Classes</p>
-        {content && <p className="text-xl text-bold">{content}</p>}
+
+
+      <div className="mt-10 mx-10">
+        <VideoList category="Featured" />
       </div>
+
+  
     </div>
   );
 };

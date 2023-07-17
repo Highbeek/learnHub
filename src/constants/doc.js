@@ -11,7 +11,7 @@ export const bgPic = [
 ];
 
 export const popularSubjects = [
-  { title: "All Subjects" },
+  { title: "Tech Skills", bg: "" },
   {
     title: "JavaScript",
     bg: "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -21,7 +21,7 @@ export const popularSubjects = [
     bg: "https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    title: "React",
+    title: "React Js",
     bg: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
@@ -57,7 +57,7 @@ export const popularSubjects = [
     bg: "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149065783.jpg?w=740&t=st=1688762536~exp=1688763136~hmac=ea58a81266aff32c36ccbff5531c618bf73e71135840d84844f2fc112cda31ae",
   },
   {
-    title: "Digigtal Marketing ",
+    title: "Digital Marketing",
     bg: "https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?w=740&t=st=1688762506~exp=1688763106~hmac=aab3b73a29cf0e8bb2bd4661497bb58ca72f930d5b9a1206ca65978f1cb2aeab",
   },
   {
@@ -72,5 +72,4 @@ export const popularSubjects = [
     title: "Music Production",
     bg: "https://images.pexels.com/photos/306089/pexels-photo-306089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
-  // Add more subjects as needed
 ];

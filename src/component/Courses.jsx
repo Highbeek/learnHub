@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import { SubjectContext } from "../Hooks/SubjectContext";
@@ -11,7 +12,7 @@ const Subjects = ({ subjects }) => {
 
   return (
     <div>
-      <p className="text-black text-2xl font-semibold">Courses</p>
+     
       <div>
         {subjects.map((subject, index) => (
           <div key={index}>

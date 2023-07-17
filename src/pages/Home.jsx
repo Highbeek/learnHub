@@ -9,7 +9,7 @@ const Home = () => {
         <Homebg />
       </div>
 
-      <h1 className="absolute top-0 text-5xl font-extrabold text-white">
+      <h1 className="absolute top-0 text-5xl font-extrabold text-white headerText">
         LearnHub
       </h1>
     </div>

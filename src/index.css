@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Vollkorn&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,14 +11,16 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: light;
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
+}
+.headerText {
+  font-family: "Luckiest Guy", cursive;
 }
 input::placeholder {
   color: white;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .btn {
   background-color: #00f59b;
 }
-
