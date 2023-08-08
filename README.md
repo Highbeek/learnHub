@@ -1,4 +1,4 @@
-# LearnHub: Learn, Explore, and Grow
+# 📖LearnHub: Learn, Explore, and Grow
 
 **LearnHub** is an interactive learning app designed to empower users to expand their knowledge through a variety of courses. Users can sign in with Google, select courses of interest, and access a curated collection of learning materials, including videos and books. This app enhances the learning experience by providing diverse resources in one place.
 
